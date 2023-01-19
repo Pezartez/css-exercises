@@ -16,13 +16,15 @@ body {
   padding: 8px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: center; 
+  padding: 8px;
   gap: 15px;
 }
 
-.links {
+.left, .right {
   display: flex;
-  flex-grow: 2;
+  align-items: center;
+  gap: 16px;
 }
 
 .profile-image {
@@ -60,8 +62,7 @@ a {
 ul {
   list-style-type: none;
   display: flex;
-  justify-content: left;
-  gap: 15px;
   margin: 0px;
   padding: 0px;
+  gap: 16px;
 }
